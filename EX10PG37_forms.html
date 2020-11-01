@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<body>
+	<h1> Motorbike Customer requirement </h1>
+	<form action="backscript">
+	<fieldset>
+	<legend> Customer Details </legend>
+	Name: <input type="text" size="35"><br>
+	E-mail: <input type="text" size="30"><br>
+	Phone number: <input type="text" size="15"><br>
+	Date of birth: <input type="text" size"9">
+	</fieldset>
+	<br>
+	<input type="radio" name="sex" value="male">Male<br>
+	<input type="radio" name="sex" value="female">Female<br>
+	<br>
+	Do you own a Motorbike<br>
+	<input type="checkbox" name="motor" value="bike">Yes
+	<input type="checkbox" name="motor" value="bike">No<br>
+	<br>
+	Select the motorbike manufacturer<br>
+	<select name="bike">
+	<option value="honda"> Honda </option>
+	<option value="ducati"> Ducati </option>
+	<option value="kawasaki"> Kawasaki </option>
+	<option value="yamaha"> Yamaha </option>
+	<option value="aprilia"> Aprilia </option>
+	</select>
+	<br><br>
+	<input type="button" value="Submit">
+	</form>
+	<hr>
+	<h2> Customer Feedback </h2>
+	<form action="MAILTO:abcxyz@demo.com" method="post" enctype="text/plain">
+	Name:<input type="text" name="name" value="Please enter your name"><br>
+	E-mail:<input type="text" name="mail" size "30" value="Enter your e-mail address"><br><br>
+	<textarea cols="40" rows="5" name="Comments:::"> Please type in your feedback </textarea>
+	<br>
+	<input type="submit" value="Send">
+	<input type="reset" value="Reset">
+	</form>
+</body>
+</html>

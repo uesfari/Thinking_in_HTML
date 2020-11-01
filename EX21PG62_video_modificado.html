@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Video Player in HTML5 </title>
+<style>
+	video {
+		box-shadow:0 0 15px navy;
+		border-radius:17px;
+	      }
+</style>
+</head>
+<h1> HTML5 Video Player </h1>
+<br>
+<body>
+<video width="700" height="400" id="packt" controls="controls" autoplay="autoplay">
+<source src="video\teste.mp4"/>
+</video>
+<br><br>
+<div>
+<button onclick="document.getElementById('packt').play()"> Play </buttom>
+<button onclick="document.getElementById('packt').pause()"> Pause </button>
+<button onclick="document.getElementById('packt').volume+=0.1">Vol+</button>
+<button onclick="document.getElementById('packt').volume-=0.1">Vol-</button>
+</div>
+</body>
+</html>
