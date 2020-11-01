@@ -1,2 +1,2 @@
 # Thinking_in_HTML
- Exercícios do livro
+ Exercícios do livro Thinking in HTML
